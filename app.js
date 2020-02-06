@@ -61,15 +61,15 @@ for(tries = 0; tries < 4; tries++){
         alert('Good Job!');
         i = 6
         break;
-        case answerq7[3]:
+      case answerq7[3]:
         alert('Good Job!');
         i = 6
         break;
-        case answerq7[4]:
+      case answerq7[4]:
         alert('Good Job!');
         i = 6
         break;
-        case answerq7[5]:
+      case answerq7[5]:
         alert('Good Job!');
         i = 6
         break;
@@ -79,9 +79,10 @@ for(tries = 0; tries < 4; tries++){
   }
   alert('These are my favorite genres: Metal, EDM, Rock, Country, Pop, Punk');
 
+  // Function for questions 1-5
   function que(){
     if (question.toLowerCase() === 'y' ||question.toLowerCase() === 'yes') {
   alert('Correct!'); }
-else {
+    else {
   alert('Incorrect! Try again.'); }
   }
