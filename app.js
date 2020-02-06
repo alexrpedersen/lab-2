@@ -63,7 +63,7 @@ for(tries = 0; tries < 4; tries++){
   alert('The correct answer is 4');
   
   //question7
-  var answerq7 = ['metal', 'edm', 'rock'];
+  var answerq7 = ['metal', 'edm', 'rock', 'country', 'pop', 'punk'];
   
   for(var i= 0; i < answerq7.length; i++){
   
@@ -71,18 +71,30 @@ for(tries = 0; tries < 4; tries++){
     switch(question7.toLowerCase()){
       case answerq7[0]:
         alert('Good Job!');
-        i = 3
+        i = 6
         break;
       case answerq7[1]:
         alert('Good Job!');
-        i = 3
+        i = 6
         break;
       case answerq7[2]:
         alert('Good Job!');
-        i = 3
+        i = 6
+        break;
+        case answerq7[3]:
+        alert('Good Job!');
+        i = 6
+        break;
+        case answerq7[4]:
+        alert('Good Job!');
+        i = 6
+        break;
+        case answerq7[5]:
+        alert('Good Job!');
+        i = 6
         break;
       default:
         alert('try again');
     }
   }
-  alert('These are my favorite genres: Metal, EDM, Rock');
+  alert('These are my favorite genres: Metal, EDM, Rock, Country, Pop, Punk');
