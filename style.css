@@ -11,5 +11,10 @@ li {
 }
 
 body {
-  background-color: rgb(231, 97, 20);
+  background-color: rgb(97, 13, 206);
+  margin: 50px;
+}
+
+img {
+  float: right;
 }
