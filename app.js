@@ -55,7 +55,7 @@ function isYesNoAnswerCorrect(response, correctAnswer){
     return true;
   }
   else {
-    alert('You suck! Try again!');
+    alert('Try again!');
     return false;
   }
 }
